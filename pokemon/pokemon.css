@@ -1,0 +1,51 @@
+main {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+article img{
+    width: 65%;
+    min-width: 8rem;
+}
+
+article a{
+    text-decoration: none;
+}
+
+article a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        display: block;
+        min-width: 400px;
+    }
+    article {
+        margin-bottom: 1rem;
+    }
+}
+
+.fire {
+    background-color: orange;
+    color: white;
+    padding: 5px 10px;
+}
+
+.water {
+    background-color: rgb(0, 153, 255);
+    color: white;
+    padding: 5px 10px;
+}
