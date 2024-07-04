@@ -68,21 +68,21 @@ let mainHTML = '';
 for (const data of pokemonData) {
     if (data.type === 'Fire') {
         mainHTML += `<article>
-            <img src="${data.img}" alt="" />
+            <img src="${data.img}" alt="">
             <p>${data.name}</p>
             <p class="fire">${data.type}</p>
             <a href="${data.link}" target="_blank">Read more</a>
     </article>`;
     } else if (data.type === 'Water') {
         mainHTML += `<article>
-            <img src="${data.img}" alt="" />
+            <img src="${data.img}" alt="">
             <p>${data.name}</p>
             <p class="water">${data.type}</p>
             <a href="${data.link}" target="_blank">Read more</a>
     </article>`;
     } else {
         mainHTML += `<article>
-            <img src="${data.img}" alt="" />
+            <img src="${data.img}" alt="">
             <p>${data.name}</p>
             <p>${data.type}</p>
             <a href="${data.link}" target="_blank">Read more</a>
