@@ -31,6 +31,10 @@ const mainLinksData = [
         text: 'Pokemon',
         link: '../pokemon/',
     },
+    {
+        text: 'Sport',
+        link: '../sportas/',
+    },
 ];
 
 let navHTML = '';

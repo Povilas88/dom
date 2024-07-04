@@ -1,5 +1,5 @@
-console.log('labas');
-console.log('labas');
-console.log('labas');
-console.log('labas');
-console.log('labas');
+import { header } from './js/header.js';
+
+header();
+
+document.getElementsByTagName('header')[0].innerHTML = header();
